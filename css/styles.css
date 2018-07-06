@@ -51,3 +51,14 @@ h1{
 .Hour{
   background-color: red;
 }
+#food{
+   background-image: url("../img/backgrounds/foodsBg.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   height: 550px;
+
+}
+.cnt{
+  background-color:white;
+}
