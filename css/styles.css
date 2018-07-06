@@ -1,0 +1,53 @@
+.landingpage{
+  background-image: url("../img/backgrounds/landing.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+
+}
+h1{
+  text-align: center;
+  text-color: white;
+}
+.img{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+#b{
+  background-color:white;
+}
+.happyTime{
+  height: ;
+
+}
+.happyhour{
+
+  height: ;
+  width: ;
+}
+#imgtext{
+  position: absolute;
+  bottom: 60px;
+  left: 50px;
+  font-size: 30px;
+  color: white;
+
+}
+#text1{
+  background-color: gray;
+
+
+}
+#text2{
+  background-color: red;
+
+}
+.leo{
+  background-color: gray;
+}
+.Hour{
+  background-color: red;
+}
