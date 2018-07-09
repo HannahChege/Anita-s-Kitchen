@@ -10,6 +10,11 @@ h1{
   text-align: center;
   text-color: white;
 }
+h2{
+  font-color:orange;
+  font-size: 20;
+  font-style: italic;
+}
 .img{
   display:flex;
   justify-content: center;
@@ -28,6 +33,7 @@ h1{
   height: ;
   width: ;
 }
+
 #imgtext{
   position: absolute;
   bottom: 60px;
@@ -50,4 +56,43 @@ h1{
 }
 .Hour{
   background-color: red;
+}
+#food{
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+}
+.col-md-4{
+  background-color: white;
+
+}
+
+.container 2{
+  background-color: white;
+}
+#form{
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+#customer{
+  box-shadow: 200px;
+}
+h1{
+  font-size: 30;
+}
+#email{
+  margin-left: 15em;
+
+}
+#input{
+  opacity: 0.5;
+  width: 300px;
+}
+.btn-email{
+  background-color: orange;
+  width: 120px;
 }
