@@ -57,12 +57,35 @@ h2{
 .Hour{
   background-color: red;
 }
-#food{
-  background-image: url("../img/backgrounds/foodsBg.jpg");
+.row1{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+#fastfood{
+  border-style: solid;
+  border-color: white;
+  box-shadow: 0 0 10px 10px #F2F2F2;
+  border-width: 20px;
+}
+#drinks{
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+  box-shadow: 0 0 10px 10px #F2F2F2;
+}
+#foodsBg{
+  height: 500px;
+  width: 100%;
+  margin-top: 3em;
+}
+
+#chicken{
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 550px;
+  margin-top: -30%;
+
 }
 .col-md-4{
   background-color: white;
@@ -79,7 +102,12 @@ h2{
   height: 300px;
 }
 #customer{
-  box-shadow: 200px;
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
+  box-shadow: 0 0 10px 10px #F2F2F2;
+  margin-top: -10%;
+  margin-bottom: 3em;
 }
 h1{
   font-size: 30;
@@ -95,4 +123,49 @@ h1{
 .btn-email{
   background-color: orange;
   width: 120px;
+}
+#footer{
+  background-color:#f15a29;
+  height: 300px;
+  color: white;
+  margin-top: -10%;
+  font-family: serif;
+
+}
+
+.img2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 3em;
+}
+#menu{
+  margin-left: 5em;
+  margin-top: -1em;
+}
+.footers{
+  margin-left: 50%;
+}
+.nav{
+  background-color: lightgrey;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.nav li{
+  float: left;
+  color: black;
+  text-align: left;
+  padding: 10px 90px;
+  text-decoration: black;
+  font-size: 18px;
+  height: 70%;
+}
+.nav li:hover{
+  background-color: white;
+  color: red;
+}
+.nav li.active{
+  background-color: white;
+  color: red;
 }
