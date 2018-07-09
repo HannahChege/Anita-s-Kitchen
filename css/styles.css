@@ -44,19 +44,19 @@ h2{
 }
 #text1{
   background-color: gray;
-
-
+  font-style: italic;
 }
 #text2{
-  background-color: red;
+  background-color: ;
 
 }
 .leo{
   background-color: gray;
 }
 .Hour{
-  background-color: red;
+  background-color: #f15a29;
 }
+
 .row1{
   margin-top: 3em;
   margin-bottom: 3em;
@@ -168,4 +168,16 @@ h1{
 .nav li.active{
   background-color: white;
   color: red;
+}
+#food{
+   background-image: url("../img/backgrounds/foodsBg.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   height: 550px;
+
+}
+.cnt{
+  background-color:white;
+>>>>>>> fd1961d81069709c34fbebccc3c2332e0efa8727
 }
